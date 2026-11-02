@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>سياسة الخصوصية — الحاسبة</title>
+  <style>
+    body { margin: 0; background: #f6f4f1; color: #1c1c1e; font-family: "Noto Sans Arabic", "Segoe UI", Tahoma, sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+    h1 { font-size: 28px; margin: 0 0 8px; }
+    h2 { font-size: 18px; margin: 28px 0 8px; }
+    p, li { font-size: 16px; line-height: 1.8; }
+    .muted { color: #5c656b; font-size: 14px; }
+    a { color: #0b6b4f; }
+    ul { padding-inline-start: 1.2em; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>سياسة الخصوصية</h1>
+    <p class="muted">تطبيق الحاسبة (الآلة الحاسبة) — الحزمة ps.naje.signeddemo — آخر تحديث: 2 نوفمبر 2026</p>
+    <p>هذه السياسة تخص تطبيق الحاسبة على أندرويد والموقع <a href="https://chatio.grok.me">chatio.grok.me</a>. التطبيق آلة حاسبة تعمل على جهازك، وفيه ميزة مراسلة اختيارية بين من يستخدمون التطبيق.</p>
+    <h2>ما الذي يُجمع</h2>
+    <ul>
+      <li>عمليات الحساب تبقى على الجهاز ولا تُرسل إلى أي خادم.</li>
+      <li>إذا استخدمت المراسلة: الاسم الذي تكتبه، وصورة اختيارية، ونص الرسائل، والتسجيلات الصوتية، والصور التي ترسلها.</li>
+      <li>لا نطلب بريداً إلكترونياً ولا ننشئ حساباً.</li>
+    </ul>
+    <h2>أين تُحفظ البيانات</h2>
+    <ul>
+      <li>على جهازك، داخل مساحة التطبيق الخاصة. يُحفظ آخر عدد محدود من الرسائل، وتُحذف الأقدم تلقائياً.</li>
+      <li>رسائل المراسلة تُشفَّر على جهازك قبل إرسالها، ثم تمر عبر وسيط عام هو HiveMQ (broker.hivemq.com) حتى تصل إلى الأجهزة الأخرى. الوسيط ينقل النص المشفّر وقد يحتفظ بآخر نسخة من الرسائل النصية إلى أن تُستبدل. الصوت والصور لا يُحفظان على الوسيط لمن يفتح التطبيق لاحقاً.</li>
+      <li>المراسلة لا تمر عبر واجهة جروك ولا تُستخدم لتدريب نموذج.</li>
+    </ul>
+    <h2>الأذونات</h2>
+    <ul>
+      <li>الإنترنت: لإيصال الرسائل المشفّرة فقط.</li>
+      <li>الميكروفون: لتسجيل رسالة صوتية إذا ضغطت التسجيل.</li>
+      <li>الكاميرا والصور: لإرسال صورة إذا اخترت ذلك.</li>
+    </ul>
+    <h2>ما لا نفعله</h2>
+    <p>لا نبيع البيانات، ولا نعرض إعلانات، ولا نشاركها مع شركات إعلان. لا نجمع موقعك.</p>
+    <h2>الحذف</h2>
+    <p>يمكنك حذف رسالة لديك أو لدى الجميع من داخل المحادثة. حذف التطبيق من الجهاز يمسح النسخة المحفوظة عليه. النسخة المشفّرة على الوسيط العام ليست تحت سيطرتنا المباشرة وقد تبقى إلى أن تُستبدل أو يمسحها الوسيط.</p>
+    <h2>الأطفال</h2>
+    <p>التطبيق غير موجّه لمن هم دون 13 سنة.</p>
+    <h2>التواصل</h2>
+    <p>لأي طلب يخص هذه السياسة راسل المطوّر عبر <a href="https://github.com/mahmudnaje-del">حسابه على GitHub</a>.</p>
+    <h2 dir="ltr" lang="en">English summary</h2>
+    <p dir="ltr" lang="en">Calculator runs on your device and does not upload calculations. Optional messaging stores your chosen name, an optional photo, and the messages you send, on the device. Message payloads are encrypted on the device and relayed through the public HiveMQ broker so other people using the app can receive them. Voice and photos are not kept on that broker for later delivery. There are no accounts, ads, or sale of data. Messaging does not use the Grok API. Uninstalling the app deletes the local copy.</p>
+  </main>
+</body>
+</html>
